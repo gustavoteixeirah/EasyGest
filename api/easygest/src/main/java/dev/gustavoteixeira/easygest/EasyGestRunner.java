@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EasygestApplication {
+public class EasyGestRunner {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EasygestApplication.class, args);
+		SpringApplication.run(EasyGestRunner.class, args);
 	}
 
 }
