@@ -13,6 +13,14 @@ export const useAuthStore = defineStore("authStore", {
       localStorage.setItem("token", this.session.token);
       this.$router.push("/dashboard");
     },
+    isLoggedIn() {
+        const token = localStorage.getItem("token");
+        if (token) {
+            return true;
+        } else {
+            return false;
+        }
+    },
     logout() {
       this.session = {};
       localStorage.removeItem("token");

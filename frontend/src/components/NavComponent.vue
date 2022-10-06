@@ -9,7 +9,8 @@
 <template>
     <div class="nav">
         {{ authStore.session.token }}
-    <button @click="authStore.logout">Logout</button>
+    <button @click="authStore.logout" v-if="authStore.isLoggedIn()">Logout</button>
+    <RouterLink to="/login" v-if="!authStore.isLoggedIn()">Login</RouterLink>
 </div>
 </template>
 

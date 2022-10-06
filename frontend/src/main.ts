@@ -8,12 +8,14 @@ import BoardServiceHttp from "./services/BoardServiceHttp";
 import { useAuthStore } from "./stores/AuthStore";
 import DashboardViewVue from "./views/DashboardView.vue";
 import LoginViewVue from './views/LoginView.vue';
+import LandingPageViewVue from './views/LandingPageView.vue';
 
 const app = createApp(App);
 
 const router = createRouter({
     history: createWebHistory(),
     routes: [
+        {path: "/", component: LandingPageViewVue},
         {path: "/login", component: LoginViewVue},
         {path: "/dashboard", component: DashboardViewVue},
     ]
