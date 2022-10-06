@@ -9,9 +9,8 @@ const data: { board: Board | undefined } = reactive({ board: undefined });
 // const route = useRoute();
 // const idBoard = parseInt(route.params.idBoard as string);
 
-onMounted(async () => {
-  console.log("I'm mounted :)")
-});
+// onMounted(async () => {
+// });
 </script>
 
 <template>

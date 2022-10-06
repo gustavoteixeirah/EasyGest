@@ -22,7 +22,7 @@ const router = createRouter({
 })
 
 const httpClient = new AxiosAdapter(router);
-const baseUrl = "http://localhost:3000";
+const baseUrl = "http://localhost:8080";
 const authService = new AuthServiceHttp(httpClient, baseUrl);
 
 const pinia = createPinia();

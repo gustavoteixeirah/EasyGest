@@ -16,7 +16,7 @@ const authStore = useAuthStore();
         <h2>Bem-vindo(a)!</h2>
         <div class="loginBox">
             <input type="text" v-model="username" placeholder="e-mail" />
-            <input type="password" v-model="password" placeholder="senha"/>
+            <input type="password" v-model="password" placeholder="senha" @keyup.enter="authStore.login(username, password)" />
             <button @click="authStore.login(username, password)">Login</button>
         </div>
         <div class="cadastrar">
