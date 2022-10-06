@@ -1,8 +1,5 @@
 <script setup lang="ts">
-
-import BoardView from './views/DashboardView.vue';
-import NavComponent from './components/NavComponent.vue';
-
+import NavComponent from "./components/NavComponent.vue";
 </script>
 
 <template>
@@ -11,4 +8,5 @@ import NavComponent from './components/NavComponent.vue';
 </template>
 
 <style scoped>
+
 </style>
