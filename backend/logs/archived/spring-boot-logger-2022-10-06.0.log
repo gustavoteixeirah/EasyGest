@@ -1,0 +1,275 @@
+2022-10-06 04:40:07,623 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BackendApplication using Java 17.0.4.1 on hyperspace with PID 4739 (/home/teixeira/r/EasyGest/backend/build/classes/java/main started by teixeira in /home/teixeira/r/EasyGest/backend)
+2022-10-06 04:40:07,625 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-06 04:40:07,625 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 04:40:07,647 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-06 04:40:07,648 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-06 04:40:08,028 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2022-10-06 04:40:08,118 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 87 ms. Found 1 Reactive MongoDB repository interfaces.
+2022-10-06 04:40:08,537 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "4.6.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.19.12-arch1-1"}, "platform": "Java/Amazon.com Inc./17.0.4.1+9-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=NettyStreamFactoryFactory{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@6b9bb278, socketChannelClass=class io.netty.channel.socket.nio.NioSocketChannel, allocator=PooledByteBufAllocator(directByDefault: true), sslContext=null}, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@3296f264], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@4695c6c2]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@530462d5], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-06 04:40:08,576 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='633e865835996573be108137', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:1}] to localhost:27017
+2022-10-06 04:40:08,576 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='633e865835996573be108137', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+2022-10-06 04:40:08,577 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='633e865835996573be108137', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22309289}
+2022-10-06 04:40:08,610 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-06 04:40:08,790 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 04:40:08,802 INFO org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration [restartedMain] 
+
+Using generated security password: c8c4cc3e-b2ac-475f-a4c9-26e525f9b526
+
+2022-10-06 04:40:08,913 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8080
+2022-10-06 04:40:08,923 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BackendApplication in 1.467 seconds (JVM running for 1.775)
+2022-10-06 04:40:09,462 INFO com.mongodb.diagnostics.logging.SLF4JLogger [nioEventLoopGroup-3-3] Opened connection [connectionId{localValue:3, serverValue:3}] to localhost:27017
+2022-10-06 05:14:12,895 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BackendApplication using Java 17.0.4.1 on hyperspace with PID 7382 (/home/teixeira/r/EasyGest/backend/build/classes/java/main started by teixeira in /home/teixeira/r/EasyGest/backend)
+2022-10-06 05:14:12,897 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-06 05:14:12,898 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 05:14:12,926 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-06 05:14:12,926 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-06 05:14:13,321 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2022-10-06 05:14:13,385 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 61 ms. Found 1 Reactive MongoDB repository interfaces.
+2022-10-06 05:14:13,714 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "4.6.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.19.12-arch1-1"}, "platform": "Java/Amazon.com Inc./17.0.4.1+9-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=NettyStreamFactoryFactory{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@49c5ba85, socketChannelClass=class io.netty.channel.socket.nio.NioSocketChannel, allocator=PooledByteBufAllocator(directByDefault: true), sslContext=null}, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@6458d3df], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@26220c28]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@3ae7d74c], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-06 05:14:13,754 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='633e8e5591a79c27c4cc14cd', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:5}] to localhost:27017
+2022-10-06 05:14:13,754 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='633e8e5591a79c27c4cc14cd', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:4}] to localhost:27017
+2022-10-06 05:14:13,754 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='633e8e5591a79c27c4cc14cd', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=24040651}
+2022-10-06 05:14:13,806 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-06 05:14:13,883 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'backendApplication': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMongoRepository' defined in file [/home/teixeira/r/EasyGest/backend/build/classes/java/main/dev/gustavoteixeira/easygest/security/adapter/secundary/db/user/UserMongoRepository.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'dev.gustavoteixeira.easygest.security.adapter.secundary.db.user.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-10-06 05:14:15,899 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-06 05:14:15,911 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in dev.gustavoteixeira.easygest.security.adapter.secundary.db.user.UserMongoRepository required a bean of type 'dev.gustavoteixeira.easygest.security.adapter.secundary.db.user.UserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'dev.gustavoteixeira.easygest.security.adapter.secundary.db.user.UserMapper' in your configuration.
+
+2022-10-06 05:14:53,605 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BackendApplication using Java 17.0.4.1 on hyperspace with PID 7742 (/home/teixeira/r/EasyGest/backend/build/classes/java/main started by teixeira in /home/teixeira/r/EasyGest/backend)
+2022-10-06 05:14:53,607 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-06 05:14:53,607 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 05:14:53,630 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-06 05:14:53,630 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-06 05:14:53,948 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2022-10-06 05:14:54,003 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 53 ms. Found 1 Reactive MongoDB repository interfaces.
+2022-10-06 05:14:54,295 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "4.6.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.19.12-arch1-1"}, "platform": "Java/Amazon.com Inc./17.0.4.1+9-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=NettyStreamFactoryFactory{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@1a7e491d, socketChannelClass=class io.netty.channel.socket.nio.NioSocketChannel, allocator=PooledByteBufAllocator(directByDefault: true), sslContext=null}, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@d71b9f5], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@32c73d0]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@7dd74bcc], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-06 05:14:54,334 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='633e8e7e619c875b576908d9', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:6}] to localhost:27017
+2022-10-06 05:14:54,334 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='633e8e7e619c875b576908d9', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:7}] to localhost:27017
+2022-10-06 05:14:54,334 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='633e8e7e619c875b576908d9', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23617005}
+2022-10-06 05:14:54,377 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-06 05:14:54,445 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'backendApplication': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMongoRepository' defined in file [/home/teixeira/r/EasyGest/backend/build/classes/java/main/dev/gustavoteixeira/easygest/security/adapter/secundary/db/user/UserMongoRepository.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'dev.gustavoteixeira.easygest.security.adapter.secundary.db.user.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-10-06 05:14:56,460 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-06 05:14:56,469 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in dev.gustavoteixeira.easygest.security.adapter.secundary.db.user.UserMongoRepository required a bean of type 'dev.gustavoteixeira.easygest.security.adapter.secundary.db.user.UserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'dev.gustavoteixeira.easygest.security.adapter.secundary.db.user.UserMapper' in your configuration.
+
+2022-10-06 05:18:21,469 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BackendApplication using Java 17.0.4.1 on hyperspace with PID 8088 (/home/teixeira/r/EasyGest/backend/build/classes/java/main started by teixeira in /home/teixeira/r/EasyGest/backend)
+2022-10-06 05:18:21,471 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-06 05:18:21,471 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 05:18:21,497 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-06 05:18:21,497 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-06 05:18:21,855 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2022-10-06 05:18:21,916 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 59 ms. Found 1 Reactive MongoDB repository interfaces.
+2022-10-06 05:18:22,245 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "4.6.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.19.12-arch1-1"}, "platform": "Java/Amazon.com Inc./17.0.4.1+9-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=NettyStreamFactoryFactory{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@33423293, socketChannelClass=class io.netty.channel.socket.nio.NioSocketChannel, allocator=PooledByteBufAllocator(directByDefault: true), sslContext=null}, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@6d5e2cca], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@44191993]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@704cbe05], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-06 05:18:22,288 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='633e8f4e9a19313d74cd5314', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:8}] to localhost:27017
+2022-10-06 05:18:22,288 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='633e8f4e9a19313d74cd5314', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:9}] to localhost:27017
+2022-10-06 05:18:22,288 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='633e8f4e9a19313d74cd5314', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=25299802}
+2022-10-06 05:18:22,335 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-06 05:18:22,421 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityController' defined in file [/home/teixeira/r/EasyGest/backend/build/classes/java/main/dev/gustavoteixeira/easygest/security/adapter/primary/http/security/SecurityController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-10-06 05:18:22,459 ERROR reactor.util.Loggers$Slf4JLogger [boundedElastic-1] Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: org.springframework.data.mongodb.ClientSessionException: state should be: open; nested exception is java.lang.IllegalStateException: state should be: open
+Caused by: org.springframework.data.mongodb.ClientSessionException: state should be: open; nested exception is java.lang.IllegalStateException: state should be: open
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:148)
+	at org.springframework.data.mongodb.core.ReactiveMongoTemplate.potentiallyConvertRuntimeException(ReactiveMongoTemplate.java:2962)
+	at org.springframework.data.mongodb.core.ReactiveMongoTemplate.lambda$translateException$89(ReactiveMongoTemplate.java:2945)
+	at reactor.core.publisher.Flux.lambda$onErrorMap$28(Flux.java:6954)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:94)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onError(MonoFlatMapMany.java:255)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:134)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+	at reactor.core.publisher.Operators.error(Operators.java:198)
+	at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4455)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+	at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+	at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:192)
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:259)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onError(MonoPeekTerminal.java:258)
+	at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201)
+	at com.mongodb.reactivestreams.client.internal.MongoOperationPublisher.lambda$sinkToCallback$30(MongoOperationPublisher.java:545)
+	at com.mongodb.reactivestreams.client.internal.OperationExecutorImpl.lambda$execute$9(OperationExecutorImpl.java:124)
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:48)
+	at com.mongodb.internal.operation.CommandOperationHelper.lambda$exceptionTransformingCallback$23(CommandOperationHelper.java:634)
+	at com.mongodb.internal.async.function.AsyncCallbackSupplier.lambda$whenComplete$1(AsyncCallbackSupplier.java:95)
+	at com.mongodb.internal.async.function.RetryingAsyncCallbackSupplier$RetryingCallback.onResult(RetryingAsyncCallbackSupplier.java:109)
+	at com.mongodb.internal.async.ErrorHandlingResultCallback.onResult(ErrorHandlingResultCallback.java:48)
+	at com.mongodb.internal.operation.OperationHelper.lambda$withAsyncSuppliedResource$7(OperationHelper.java:649)
+	at com.mongodb.internal.async.client.ClientSessionBinding.lambda$getWriteConnectionSource$1(ClientSessionBinding.java:75)
+	at com.mongodb.internal.async.client.ClientSessionBinding.isConnectionSourcePinningRequired(ClientSessionBinding.java:153)
+	at com.mongodb.internal.async.client.ClientSessionBinding.getWriteConnectionSource(ClientSessionBinding.java:73)
+	at com.mongodb.internal.operation.OperationHelper.withAsyncSuppliedResource(OperationHelper.java:644)
+	at com.mongodb.internal.operation.OperationHelper.withAsyncSourceAndConnection(OperationHelper.java:630)
+	at com.mongodb.internal.operation.MixedBulkWriteOperation.lambda$executeAsync$7(MixedBulkWriteOperation.java:322)
+	at com.mongodb.internal.async.function.RetryingAsyncCallbackSupplier.get(RetryingAsyncCallbackSupplier.java:89)
+	at com.mongodb.internal.async.function.AsyncCallbackSupplier.lambda$whenComplete$2(AsyncCallbackSupplier.java:99)
+	at com.mongodb.internal.operation.MixedBulkWriteOperation.executeAsync(MixedBulkWriteOperation.java:369)
+	at com.mongodb.reactivestreams.client.internal.OperationExecutorImpl.lambda$execute$10(OperationExecutorImpl.java:120)
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:58)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816)
+	at reactor.core.publisher.MonoCallable.subscribe(MonoCallable.java:62)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4455)
+	at com.mongodb.reactivestreams.client.internal.OperationExecutorImpl.lambda$execute$13(OperationExecutorImpl.java:130)
+	at reactor.core.publisher.MonoFromPublisher.subscribe(MonoFromPublisher.java:63)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4455)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onNext(MonoFlatMapMany.java:195)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816)
+	at reactor.core.publisher.MonoSupplier.subscribe(MonoSupplier.java:62)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4455)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onError(MonoFlatMap.java:172)
+	at reactor.core.publisher.FluxFilter$FilterSubscriber.onError(FluxFilter.java:157)
+	at reactor.core.publisher.FluxMap$MapConditionalSubscriber.onError(FluxMap.java:265)
+	at reactor.core.publisher.Operators.error(Operators.java:198)
+	at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+	at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816)
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2398)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171)
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onSubscribe(MonoFlatMap.java:238)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96)
+	at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816)
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2398)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171)
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onSubscribe(MonoFlatMap.java:238)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96)
+	at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onNext(FluxPeekFuseable.java:210)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2398)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.request(FluxPeekFuseable.java:144)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onSubscribe(MonoFlatMap.java:110)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onSubscribe(FluxPeekFuseable.java:178)
+	at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoUsingWhen.subscribe(MonoUsingWhen.java:87)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2398)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:171)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onSubscribe(MonoFlatMap.java:110)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96)
+	at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4455)
+	at reactor.core.publisher.MonoSubscribeOn$SubscribeOnSubscriber.run(MonoSubscribeOn.java:126)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: state should be: open
+	at com.mongodb.assertions.Assertions.isTrue(Assertions.java:79)
+	at com.mongodb.internal.connection.BaseCluster.getDescription(BaseCluster.java:165)
+	at com.mongodb.internal.connection.SingleServerCluster.getDescription(SingleServerCluster.java:44)
+	at com.mongodb.internal.async.client.ClientSessionBinding.isConnectionSourcePinningRequired(ClientSessionBinding.java:158)
+	at com.mongodb.internal.async.client.ClientSessionBinding.isConnectionSourcePinningRequired(ClientSessionBinding.java:151)
+	... 81 common frames omitted
+2022-10-06 05:18:24,439 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-06 05:18:24,450 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in dev.gustavoteixeira.easygest.security.adapter.primary.http.security.SecurityController required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2022-10-06 05:19:23,678 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BackendApplication using Java 17.0.4.1 on hyperspace with PID 8352 (/home/teixeira/r/EasyGest/backend/build/classes/java/main started by teixeira in /home/teixeira/r/EasyGest/backend)
+2022-10-06 05:19:23,679 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-06 05:19:23,680 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 05:19:23,701 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-06 05:19:23,701 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-06 05:19:24,028 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'springSecurityFilterChain' defined in class path resource [org/springframework/boot/actuate/autoconfigure/security/reactive/ReactiveManagementWebSecurityAutoConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.security.reactive.ReactiveManagementWebSecurityAutoConfiguration; factoryMethodName=springSecurityFilterChain; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/security/reactive/ReactiveManagementWebSecurityAutoConfiguration.class]] for bean 'springSecurityFilterChain': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration; factoryMethodName=springSecurityFilterChain; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] bound.
+2022-10-06 05:19:24,037 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-06 05:19:24,045 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'springSecurityFilterChain', defined in class path resource [org/springframework/boot/actuate/autoconfigure/security/reactive/ReactiveManagementWebSecurityAutoConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2022-10-06 05:23:09,169 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BackendApplication using Java 17.0.4.1 on hyperspace with PID 8790 (/home/teixeira/r/EasyGest/backend/build/classes/java/main started by teixeira in /home/teixeira/r/EasyGest/backend)
+2022-10-06 05:23:09,171 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-06 05:23:09,171 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 05:23:09,196 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-06 05:23:09,197 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-06 05:23:09,608 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2022-10-06 05:23:09,613 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 0 Reactive MongoDB repository interfaces.
+2022-10-06 05:23:09,992 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "4.6.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "5.19.12-arch1-1"}, "platform": "Java/Amazon.com Inc./17.0.4.1+9-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=NettyStreamFactoryFactory{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@58f9836b, socketChannelClass=class io.netty.channel.socket.nio.NioSocketChannel, allocator=PooledByteBufAllocator(directByDefault: true), sslContext=null}, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@1c280677], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@a4eea7]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@154ce5ac], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-06 05:23:10,036 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='633e906d3ef99566f25a3486', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:10}] to localhost:27017
+2022-10-06 05:23:10,036 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='633e906d3ef99566f25a3486', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:11}] to localhost:27017
+2022-10-06 05:23:10,036 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='633e906d3ef99566f25a3486', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=25170421}
+2022-10-06 05:23:10,110 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-10-06 05:23:10,151 INFO org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration [restartedMain] 
+
+Using generated security password: 397aec0e-b47c-4f97-a3da-05f82aff74c3
+
+2022-10-06 05:23:10,290 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-06 05:23:10,324 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [restartedMain] Netty started on port 8080
+2022-10-06 05:23:10,335 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BackendApplication in 1.349 seconds (JVM running for 1.695)
+2022-10-06 05:23:10,882 INFO com.mongodb.diagnostics.logging.SLF4JLogger [nioEventLoopGroup-3-3] Opened connection [connectionId{localValue:3, serverValue:12}] to localhost:27017
