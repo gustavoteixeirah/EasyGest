@@ -22,7 +22,7 @@ const router = createRouter({
 })
 
 const httpClient = new AxiosAdapter(router);
-const baseUrl = "http://localhost:8080";
+const baseUrl = "https://easygest-backend.herokuapp.com";
 const authService = new AuthServiceHttp(httpClient, baseUrl);
 
 const pinia = createPinia();
